@@ -15,19 +15,19 @@ restaurants_attributes = [
     name:         "Epicure au Bristol",
     address:      "112 rue du Fg St-Honoré 75008 Paris",
     phone_number:  "+ 33 6 12 12 32 12",
-    category:        "japanese"
+    category:        "french"
   },
   {
     name:         "La clé des champs",
     address:      "3 Rue du chat qui tousse",
     phone_number:  "02 34 52 45 56",
-    category:       "French"
+    category:       "french"
   },
   {
     name:         "Los Ciclistos",
     address:      "3 Ruta de la Muerte",
     phone_number:  "02 34 52 56",
-    category:       "Spanish"
+    category:       "italian"
   }
 ]
 Restaurant.create!(restaurants_attributes)

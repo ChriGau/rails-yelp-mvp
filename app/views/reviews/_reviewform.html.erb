@@ -1,0 +1,8 @@
+<%= simple_form_for [@restaurant, Review.new] do |f| %>
+  <%= f.input :content %>
+
+  <%= f.label :rating %>
+  <%= f.select :rating, [0, 1, 2, 3, 4, 5]   %> <br> <br>
+
+  <%= f.submit "add a review", class: "btn btn-primary" %>
+<% end %>
